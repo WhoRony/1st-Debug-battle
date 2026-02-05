@@ -877,59 +877,43 @@ img {
   }
 }
 
+/*  Responsive Design  */
 /* Tablet */
-@media (max-width: 900px) {
-	.news-section {
-		margin-bottom: 500px;
+@media (max-width: 1024px) {
+	.header-container {
+		padding: 14px 24px;
 	}
 
-	.footer {
-		height: 500px;
+	.hero-bg img {
+		object-position: right;
 	}
 
-	.nav {
-		display: none;
-	}
-
-	.menu-toggle {
-		display: flex;
+	.nav .nav-list {
+		gap: 20px;
 	}
 
 	.about-grid {
-		grid-template-columns: 1fr;
 		gap: 40px;
 	}
 
 	.about-image {
-		height: 300px;
-	}
-
-	.carousel-item:nth-child(1),
-	.carousel-item:nth-child(3) {
-		display: none;
+		height: 350px;
 	}
 
 	.careers-header {
+		grid-template-columns: 180px 1fr;
+	}
+
+	.careers-content {
 		grid-template-columns: 1fr;
-		gap: 20px;
-	}
-
-	.careers-label {
-		text-align: center;
-	}
-
-	.careers-title {
-		text-align: center;
-	}
-
-	.news-grid {
-		grid-template-columns: repeat(2, 1fr);
+		gap: 30px;
 	}
 
 	.gallery-grid {
+		height: auto;
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: auto;
-		gap: 8px;
+		gap: 12px;
 	}
 
 	.gallery-item:nth-child(n) {
@@ -937,22 +921,8 @@ img {
 	}
 
 	.footer-top {
-		grid-template-columns: 1fr 1fr;
-		gap: 30px;
-	}
-
-	.footer-links-row {
-		gap: 30px;
-	}
-
-	.footer-bottom {
-		flex-wrap: wrap;
-		gap: 10px;
-	}
-
-	.footer-legal {
-		flex-wrap: wrap;
-		gap: 15px;
+		grid-template-columns: 1fr auto auto auto;
+		gap: 40px;
 	}
 }
 
