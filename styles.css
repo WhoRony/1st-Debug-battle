@@ -879,81 +879,81 @@ img {
 
 /* Tablet */
 @media (max-width: 900px) {
-  .news-section {
-    margin-bottom: 500px;
-  }
+	.news-section {
+		margin-bottom: 500px;
+	}
 
-  .footer {
-    height: 500px;
-  }
+	.footer {
+		height: 500px;
+	}
 
-  .nav {
-    display: none;
-  }
+	.nav {
+		display: none;
+	}
 
-  .menu-toggle {
-    display: flex;
-  }
+	.menu-toggle {
+		display: flex;
+	}
 
-  .about-grid {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
+	.about-grid {
+		grid-template-columns: 1fr;
+		gap: 40px;
+	}
 
-  .about-image {
-    height: 300px;
-  }
+	.about-image {
+		height: 300px;
+	}
 
-  .carousel-item:nth-child(1),
-  .carousel-item:nth-child(3) {
-    display: none;
-  }
+	.carousel-item:nth-child(1),
+	.carousel-item:nth-child(3) {
+		display: none;
+	}
 
-  .careers-header {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
+	.careers-header {
+		grid-template-columns: 1fr;
+		gap: 20px;
+	}
 
-  .careers-label {
-    text-align: center;
-  }
+	.careers-label {
+		text-align: center;
+	}
 
-  .careers-title {
-    text-align: center;
-  }
+	.careers-title {
+		text-align: center;
+	}
 
-  .news-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+	.news-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
 
-  .gallery-grid {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-    gap: 8px;
-  }
+	.gallery-grid {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: auto;
+		gap: 8px;
+	}
 
-  .gallery-item:nth-child(n) {
-    aspect-ratio: 4/3;
-  }
+	.gallery-item:nth-child(n) {
+		aspect-ratio: 4 / 3;
+	}
 
-  .footer-top {
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-  }
+	.footer-top {
+		grid-template-columns: 1fr 1fr;
+		gap: 30px;
+	}
 
-  .footer-links-row {
-    gap: 30px;
-  }
+	.footer-links-row {
+		gap: 30px;
+	}
 
-  .footer-bottom {
-    flex-wrap: wrap;
-    gap: 10px;
-  }
+	.footer-bottom {
+		flex-wrap: wrap;
+		gap: 10px;
+	}
 
-  .footer-legal {
-    flex-wrap: wrap;
-    gap: 15px;
-  }
+	.footer-legal {
+		flex-wrap: wrap;
+		gap: 15px;
+	}
 }
 
 /* Mobile */
@@ -1070,8 +1070,8 @@ img {
 
 /* Small Mobile */
 @media (max-width: 400px) {
-  .btn {
-    padding: 10px 20px;
-    font-size: 11px;
-  }
+	.btn {
+		padding: 10px 20px;
+		font-size: 11px;
+	}
 }
